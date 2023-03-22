@@ -4,14 +4,7 @@ package com.example.blogsystem.dao;
 import com.example.blogsystem.model.domain.Article;
 import com.example.blogsystem.model.domain.Statistic;
 import org.apache.ibatis.annotations.*;
-
 import java.util.List;
-/**
- * @Classname StatisticMapper
- * @Description TODO
- * @Date 2019-3-14 9:45
- * @Created by CrazyStone
- */
 
 @Mapper
 public interface StatisticMapper {

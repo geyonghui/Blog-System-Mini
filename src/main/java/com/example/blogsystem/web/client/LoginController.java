@@ -6,12 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
-/**
- * @Classname LoginController
- * @Description 用户登录模块
- * @Date 2019-3-14 14:15
- * @Created by CrazyStone
- */
+
 @Controller
 public class LoginController {
     // 向登录页面跳转，同时封装原始页面地址

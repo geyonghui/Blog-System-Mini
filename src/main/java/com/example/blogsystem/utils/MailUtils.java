@@ -6,12 +6,7 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.stereotype.Component;
 
-/**
- * @Classname MailUtils
- * @Description 邮件发送工具类
- * @Date 2019-3-14 16:25
- * @Created by CrazyStone
- */
+
 @Component
 public class MailUtils {
     @Autowired(required = false)

@@ -19,12 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * @Classname IndexController
- * @Description TODO
- * @Date 2019-3-14 9:49
- * @Created by CrazyStone
- */
+
 @Controller
 public class IndexController {
     private static final Logger logger = LoggerFactory.getLogger(IndexController.class);

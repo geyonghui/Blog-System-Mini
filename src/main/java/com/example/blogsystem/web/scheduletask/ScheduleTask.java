@@ -9,8 +9,6 @@ import org.springframework.stereotype.Component;
 /**
  * @Classname ScheduleTask
  * @Description 定时任务管理
- * @Date 2019-3-14 16:28
- * @Created by CrazyStone
  */
 @Component
 public class ScheduleTask {

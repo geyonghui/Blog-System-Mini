@@ -7,12 +7,7 @@ import com.example.blogsystem.model.domain.Article;
 import com.example.blogsystem.model.domain.Comment;
 
 import java.util.List;
-/**
- * @Classname ISiteService
- * @Description 博客站点统计服务
- * @Date 2019-3-14 10:13
- * @Created by CrazyStone
- */
+
 public interface ISiteService {
     // 最新收到的评论
     public List<Comment> recentComments(int count);

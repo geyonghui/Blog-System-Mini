@@ -3,14 +3,7 @@ package com.example.blogsystem.dao;
 
 import com.example.blogsystem.model.domain.Article;
 import org.apache.ibatis.annotations.*;
-
 import java.util.List;
-/**
- * @Classname ArticleMapper
- * @Description TODO
- * @Date 2019-3-14 9:44
- * @Created by CrazyStone
- */
 
 @Mapper
 public interface ArticleMapper {

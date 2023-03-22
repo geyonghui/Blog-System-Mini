@@ -12,15 +12,9 @@ import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
-/**
- * @Classname SiteServiceImpl
- * @Description TODO
- * @Date 2019-3-14 10:15
- * @Created by CrazyStone
- */
+
 @Service
 @Transactional
 public class SiteServiceImpl implements ISiteService {

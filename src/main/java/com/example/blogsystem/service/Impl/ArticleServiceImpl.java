@@ -19,12 +19,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Classname ArticleServiceImpl
- * @Description TODO
- * @Date 2019-3-14 9:47
- * @Created by CrazyStone
- */
 @Service
 @Transactional
 public class ArticleServiceImpl implements IArticleService {
