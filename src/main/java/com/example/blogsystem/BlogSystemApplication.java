@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling  // 开启定时任务注解功能支持
 @SpringBootApplication
-@MapperScan(value = "com")
+@MapperScan(value = "com.example.blogsystem.dao")
 public class BlogSystemApplication {
 
     public static void main(String[] args) {
